@@ -26,6 +26,7 @@ x가 0일 때 런타임 에러가 났던 것이다. 그 이유는 range의 세�
 결국 range를 이용한 for문이 아닌 while문을 이용해서 answer의 크기가 n이 될 때까지 x간격으로 숫자를 append하도록 했다. 이때 양수일 경우는 그냥 넣고, 음수인 경우는 -1를 곱해서 넣어주었더니 모든 테스트 케이스를 통과했다.
 
 ```python
+
 def solution(x,n):
     answer = []
     i=0
